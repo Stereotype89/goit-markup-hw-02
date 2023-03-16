@@ -69,9 +69,9 @@ body {
     color: #ffffff;
 }
 
-.button_, .tel-hover, .cont, .buttons_:hover {color:#404bbf;}
+.tel-hover, .cont:hover {color:#404bbf;}
 
-.button_, .tel-hover, .cont, .buttons_:focus {color:#404bbf;}
+.tel-hover, .cont:focus {color:#404bbf;}
 
 /*Section2 -INDEX.HTML-*/
 .list-item {
