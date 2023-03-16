@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -110,4 +111,10 @@ body {
 
 .footer-b {
     background-color: #2e2f42;
+}
+.logos2 {
+    color: #F4F4FD;
+}
+.foofter-t {
+    color: #F4F4FD;
 }
