@@ -30,8 +30,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    
 }
+
 
 
 .item, .button-main:hover {color:#404bbf;}
@@ -126,6 +127,19 @@ body {
 
 /*PORTFOLIO*/
 /*header*/
+.button-all {
+    color:#4d5ae5;
+    background-color: #F4F4FD;
+}
+
+.button-all:hover {
+    background-color: #404BBF
+}
+
+.button-all:focus {
+    background-color: #404BBF
+}
+
 .buttons_ {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
