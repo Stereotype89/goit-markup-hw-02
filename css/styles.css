@@ -1,6 +1,8 @@
+:root
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455
+    background-color: #FFFFFF;
 }
 
 .logo {
@@ -18,7 +20,9 @@ body {
 
 .link {text-decoration: none;}
 
-.list {list-style: none;}
+.list {
+    list-style: none;
+}
 
 .item {
     font-weight: 500;
@@ -32,14 +36,78 @@ body {
 
 .item:focus {color:#404bbf;}
 
-.contakt {
+.cont {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
 }
-.contakt:hover {color:#404bbf;}
+.cont:hover {color:#404bbf;}
 
-.contakt:focus {color:#404bbf;}
+.cont:focus {color:#404bbf;}
 
+/*Section1 -INDEX.HTML-*/
+.buttonsect_ {
+    background-color: #2e2f42;
+}
+
+.effsolutions {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.button_ {
+    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.button_:hover {color:#404bbf;}
+
+.button_:focus {color:#404bbf;}
+
+/*Section2 -INDEX.HTML-*/
+.list-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.main-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*Section3 -INDEX.HTML-*/
+.activity {
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/*Section -INDEX.HTML-*/
+.section-4 {
+    background-color: #F4F4FD;
+}
+
+/*Footer -INDEX.HTML-*/
+
+.footer-b {
+    background-color: #2e2f42;
+}
