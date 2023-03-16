@@ -31,7 +31,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    color: var(--example-color,#2e2f42);
 }
+
 
 .item:hover {color:#404bbf;}
 
