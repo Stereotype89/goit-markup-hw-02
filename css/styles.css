@@ -44,9 +44,6 @@ body {
     letter-spacing: 0.02em;
     color:#434455;
 }
-.cont:hover {color:#404bbf;}
-
-.cont:focus {color:#404bbf;}
 
 /*Section1 -INDEX.HTML-*/
 .buttonsect_ {
@@ -72,9 +69,9 @@ body {
     color: #ffffff;
 }
 
-.button_:hover {color:#404bbf;}
+.button_, .tel-hover, .cont, .buttons_:hover {color:#404bbf;}
 
-.button_:focus {color:#404bbf;}
+.button_, .tel-hover, .cont, .buttons_:focus {color:#404bbf;}
 
 /*Section2 -INDEX.HTML-*/
 .list-item {
@@ -102,9 +99,18 @@ body {
     color: #2e2f42;
 }
 
-/*Section -INDEX.HTML-*/
+/*Section4 -INDEX.HTML-*/
 .section-4 {
     background-color: #F4F4FD;
+}
+.list-item-four {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
 }
 
 /*Footer -INDEX.HTML-*/
@@ -112,9 +118,39 @@ body {
 .footer-b {
     background-color: #2e2f42;
 }
-.logos2 {
+.logos_ {
     color: #F4F4FD;
 }
 .foofter-t {
-    color: #F4F4FD;
+    color:#F4F4FD;
+}
+
+
+
+/*PORTFOLIO*/
+/*header*/
+.buttons_ {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.content {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.text_cont {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
 }
