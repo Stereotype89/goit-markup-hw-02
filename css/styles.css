@@ -31,13 +31,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    color: var(--example-color,#2e2f42);
 }
 
 
-.item:hover {color:#404bbf;}
+.item, .button-main:hover {color:#404bbf;}
 
-.item:focus {color:#404bbf;}
+.item, .button-main:focus {color:#404bbf;}
 
 .cont {
     font-style: normal;
@@ -70,10 +69,6 @@ body {
     cursor: pointer;
     color: #ffffff;
 }
-
-.tel-hover, .cont:hover {color:#404bbf;}
-
-.tel-hover, .cont:focus {color:#404bbf;}
 
 /*Section2 -INDEX.HTML-*/
 .list-item {
