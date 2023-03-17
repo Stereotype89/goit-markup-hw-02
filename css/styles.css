@@ -1,5 +1,6 @@
 :root {
     --white: #ffffff;
+    --white_: #F4F4FD;
     --blue: #4d5ae5;
     --blue_: #404BBF;
 }
@@ -102,7 +103,7 @@ body {
 /*Section3 -INDEX.HTML-*/
 .activity {
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -110,16 +111,15 @@ body {
 }
 
 /*Section4 -INDEX.HTML-*/
-.section-4 {
+.our-team {
     background-color: #F4F4FD;
 }
-.list-item-four {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+
+.list-uorteam {
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 
 }
 
@@ -144,20 +144,20 @@ body {
     background-color: #F4F4FD;
 }
 
-.button-all:hover {
-    background-color: #404BBF
+.button-all:hover, .button-all:focus {
+    color: var(--white);
+}
+.button-all:hover, .button-all:focus {
+    background-color:var(--blue_);
 }
 
-.button-all:focus {
-    background-color: #404BBF
-}
-
-.buttons_ {
+.button_ {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .content {
