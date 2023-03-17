@@ -1,4 +1,9 @@
-:root
+:root {
+    --white: #ffffff;
+    --blue: #4d5ae5;
+    --blue_: #404BBF;
+}
+    
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -38,9 +43,7 @@ body {
 
 .item:hover, .item:focus {color:#404bbf;}
 
-.item-mail {
-    color:#434455;
-}
+.item-mail {color:#434455;}
 
 .item-mail:hover, .item-mail:focus {color:#404bbf;}
 
@@ -76,7 +79,9 @@ body {
     color: #ffffff;
 }
 
-.button-main:hover, .button-main:focus {color:#404bbf;}
+.button-main:hover, .button-main:focus {
+    background-color:var(--blue_);
+}
 
 /*Section2 -INDEX.HTML-*/
 .list-item {
