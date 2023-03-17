@@ -40,7 +40,7 @@ body {
     color:#434455;
 }
 
-.item:hover, .item:focus {color:#404bbf;}
+.item-mail:hover, .item-mail:focus {color:#404bbf;}
 
 .cont {
     font-style: normal;
