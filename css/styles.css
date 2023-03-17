@@ -35,6 +35,7 @@ body {
     color: #2E2F42;
 
 }
+.item:hover, .item:focus {color:#404bbf;}
 
 .item-mail {
     color:#434455;
