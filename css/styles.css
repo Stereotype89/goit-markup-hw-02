@@ -21,23 +21,26 @@ body {
 
 .link {text-decoration: none;}
 
-.list {
-    list-style: none;
+.list {list-style: none;
 }
 
 .item {
+    letter-spacing: 0.02em;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 24px;
     letter-spacing: 0.02em;
-    
+    color: #2E2F42;
+
 }
 
+.item-mail {
+    color:#434455;
+}
 
-
-.item, .button-main:hover {color:#404bbf;}
-
-.item, .button-main:focus {color:#404bbf;}
+.item:hover, .item:focus {color:#404bbf;}
 
 .cont {
     font-style: normal;
