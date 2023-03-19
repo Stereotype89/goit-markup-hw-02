@@ -41,8 +41,7 @@ body {
   color: #2e2f42;
 }
 
-.item:hover,
-.item:focus {
+.item:is(:hover, :focus) {
   color: #404bbf;
 }
 
@@ -50,8 +49,7 @@ body {
   color: #434455;
 }
 
-.item-mail:hover,
-.item-mail:focus {
+.item-mail:is(:hover, :focus) {
   color: #404bbf;
 }
 
@@ -85,8 +83,7 @@ body {
   color: #ffffff;
 }
 
-.button-main:hover,
-.button-main:focus {
+.button-main:is(:hover, :focus) {
   background-color: var(--blue_);
 }
 
@@ -147,12 +144,10 @@ body {
   background-color: #f4f4fd;
 }
 
-.button-all:hover,
-.button-all:focus {
+.button-all:is(:hover, :focus) {
   color: var(--white);
 }
-.button-all:hover,
-.button-all:focus {
+.button-all:is(:hover, :focus) {
   background-color: var(--blue_);
 }
 
