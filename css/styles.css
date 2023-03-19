@@ -139,23 +139,18 @@ body {
 
 /*PORTFOLIO*/
 /*header*/
-.button-all {
+.button_ {
   color: #4d5ae5;
   background-color: #f4f4fd;
-}
-
-.button-all:is(:hover, :focus) {
-  color: var(--white);
-}
-.button-all:is(:hover, :focus) {
-  background-color: var(--blue_);
-}
-
-.button_ {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+.button_:is(:hover, :focus) {
+  color: var(--white);
+  background-color: var(--blue_);
 }
