@@ -54,6 +54,7 @@ body {
 }
 
 .cont {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -74,6 +75,7 @@ body {
 }
 
 .button-main {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
